@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color:white;
+}
+
+.ScientificRevIntroP {
+    position: relative;
+    top:10px;
+    color: lightgoldenrodyellow;
+
+}
+
+.MonaLisa {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+figcaption {
+    color:lightcoral;
+    position: relative;
+    text-align: center;
+    font-style: italic;
+    margin-top: 60px;
+}
+
+.MonaLisaP {
+    position:relative;
+    top:20px;
+    color:white;
+}
+
+.mainPageButton {
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+}
+
+button:active {
+    background-color: blue;
+}

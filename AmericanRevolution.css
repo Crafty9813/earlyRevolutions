@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+
+.AmericanRevIntroP {
+    position: relative;
+    left: 760px;
+    top: -300px;
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+figcaption {
+    color:white;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.GWashington {
+    position: relative;
+    width: 50%;
+    height: auto;
+}
+
+.mainPageButton {
+    position: relative;
+    color:black;
+    background-color:lightblue;
+    border-radius: 10px;
+    left: 50px;
+    top:20px;
+}
+
+button:active {
+    background-color: blue;
+}
