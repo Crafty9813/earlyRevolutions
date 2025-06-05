@@ -7,14 +7,35 @@ h1 {
     color:white;
 }
 
-.ScientificRevIntroP {
+h2 {
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 90px;
+    color: lightsalmon;
+}
+
+h3 {
+    position: relative;
+    margin-top: 10px;
+    text-align: center;
+    color: lightskyblue;
+}
+
+.peopleParagraphs {
+    position: relative;
+    color: white;
+    left: 500px;
+    bottom: 300px;
+}
+
+#ScientificRevIntroP {
     position: relative;
     top:10px;
     color: lightgoldenrodyellow;
-
 }
 
-.MonaLisa {
+#MonaLisaImg {
     position: relative;
     display: block;
     margin-left: auto;
@@ -22,6 +43,76 @@ h1 {
     top: 50px;
 }
 
+#MonaLisaP {
+    position:relative;
+    top:20px;
+    color:white;
+}
+
+#RenaissanceP {
+    color:white;
+}
+
+
+
+
+/*---PEOPLE---*/
+#NCopernicusImg {
+    border-radius: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: orangered;
+    position: relative;
+    margin-top:70px;
+    width: 25%;
+    height: 25%
+}
+
+#NCopernicusCaption {
+    position: relative;
+    right: 500px;
+    margin-top: 10px;
+    color: lightcoral;
+}
+
+#GalileoImg {
+    border-radius: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: lightgreen;
+    position: relative;
+    margin-top:70px;
+    width: 25%;
+    height: 25%
+}
+
+#GalileoCaption {
+    position: relative;
+    right: 500px;
+    margin-top: 10px;
+    color: lightseagreen;
+}
+
+#KeplerImg {
+    border-radius: 20px;
+    border-style: double;
+    border-width: 5px;
+    border-color: lightblue;
+    position: relative;
+    margin-top:70px;
+    width: 25%;
+    height: 25%
+}
+
+#KeplerCaption {
+    position: relative;
+    right: 500px;
+    margin-top: 10px;
+    color: lightskyblue;
+}
+
+
+/*for Mona Lisa caption*/
 figcaption {
     color:lightcoral;
     position: relative;
@@ -30,15 +121,12 @@ figcaption {
     margin-top: 60px;
 }
 
-.MonaLisaP {
-    position:relative;
-    top:20px;
-    color:white;
-}
 
+
+/*-----BUTTON-----*/
 .mainPageButton {
     position: relative;
-    top: 20px;
+    top: 100px;
     border-radius: 10px;
 }
 
