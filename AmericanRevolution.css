@@ -2,33 +2,113 @@ body {
     background-color: black;
 }
 
-.AmericanRevIntroP {
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#protestant-reform-h {
+    position: relative;
+    text-align: right;
+    text-decoration: underline;
+    margin-right: 110px;
+    top: 200px;
+    color: lightblue;
+}
+
+#protestant-reform-p{
     position: relative;
     left: 760px;
     top: -300px;
     color: white;
 }
 
-h1 {
-    color: white;
-    text-align: center;
+.mayflower-img {
+    position: relative;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    border-color: tan;
+    width: 45%;
+    height: auto;
 }
 
-figcaption {
+#mayflower-caption {
     color:white;
     font-style: italic;
     padding: 5px;
     margin-top: 10px;
 }
 
-.GWashington {
+#england-monarchy-h {
     position: relative;
-    width: 50%;
+    text-align: center;
+    text-decoration:underline;
+    bottom: 100px;
+    color: orange;
+}
+
+#england-monarchy-p {
+    position:relative;
+    margin-right: 150px;
+    margin-left: 150px;
+    bottom: 90px;
+    color: white;
+}
+
+ul {
+    position: relative;
+    display: table;
+    margin: 0 auto;
+    bottom: 60px;
+    color: lightcyan;
+}
+
+li::marker {
+    color: lightskyblue;
+}
+
+#enlightenmentH {
+    position: relative;
+    text-align: center;
+    text-decoration: underline;
+    color: lightseagreen;
+}
+
+#enlightenment-p {
+    position: relative;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-top: 50px;
+    color: white;
+}
+
+#john-adams-img {
+    position: relative;
+    float: right;
+    border-radius: 200px;
+    width: 30%;
     height: auto;
+}
+
+#john-adams-caption {
+    position: relative;
+    text-align: right;
+    left: 350px;
+    top:520px;
+    color: lightskyblue;
+}
+
+#john-adams-p {
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+    color: lightgray;
 }
 
 .mainPageButton {
     position: relative;
+    margin-top: 500px;
     color:black;
     background-color:lightblue;
     border-radius: 10px;
