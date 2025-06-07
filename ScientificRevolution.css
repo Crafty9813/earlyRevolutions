@@ -1,154 +1,148 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
-    text-align: center;
-    color:white;
+  text-align: center;
+  color: white;
 }
 
 h2 {
-    position: relative;
-    text-align: center;
-    text-decoration: underline;
-    margin-top: 90px;
-    color: lightsalmon;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 90px;
+  color: lightsalmon;
 }
 
 h3 {
-    position: relative;
-    margin-top: 10px;
-    text-align: center;
-    color: lightskyblue;
+  position: relative;
+  margin-top: 10px;
+  text-align: center;
+  color: lightskyblue;
 }
 
 .peopleParagraphs {
-    position: relative;
-    color: white;
-    left: 500px;
-    bottom: 300px;
+  position: relative;
+  color: white;
+  left: 500px;
+  bottom: 300px;
 }
 
 #ScientificRevIntroP {
-    position: relative;
-    top:10px;
-    color: lightgoldenrodyellow;
+  position: relative;
+  top: 10px;
+  color: lightgoldenrodyellow;
 }
 
 #MonaLisaImg {
-    position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    top: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  top: 50px;
 }
 
 #MonaLisaP {
-    position:relative;
-    top:20px;
-    color:white;
+  position: relative;
+  top: 20px;
+  color: white;
 }
 
 #RenaissanceP {
-    color:white;
+  color: white;
 }
-
-
-
 
 /*---PEOPLE---*/
 
 #isaac-newton-img {
-    border-radius: 100px;
-    border-style: double;
-    border-width: 5px;
-    border-color: indigo;
-    position: relative;
-    margin-top:70px;
-    width: 25%;
-    height: 25%
+  border-radius: 100px;
+  border-style: double;
+  border-width: 5px;
+  border-color: indigo;
+  position: relative;
+  margin-top: 70px;
+  width: 25%;
+  height: 25%;
 }
 
 #isaac-newton-caption {
-    position: relative;
-    right: 500px;
-    margin-top: 10px;
-    color: rgb(203, 195, 227);
+  position: relative;
+  right: 500px;
+  margin-top: 10px;
+  color: rgb(203, 195, 227);
 }
 
 #NCopernicusImg {
-    border-radius: 20px;
-    border-style: double;
-    border-width: 5px;
-    border-color: orangered;
-    position: relative;
-    margin-top:70px;
-    width: 25%;
-    height: 25%
+  border-radius: 20px;
+  border-style: double;
+  border-width: 5px;
+  border-color: orangered;
+  position: relative;
+  margin-top: 70px;
+  width: 25%;
+  height: 25%;
 }
 
 #NCopernicusCaption {
-    position: relative;
-    right: 500px;
-    margin-top: 10px;
-    color: lightcoral;
+  position: relative;
+  right: 500px;
+  margin-top: 10px;
+  color: lightcoral;
 }
 
 #GalileoImg {
-    border-radius: 150px;
-    border-style: double;
-    border-width: 5px;
-    border-color: lightgreen;
-    position: relative;
-    margin-top:70px;
-    width: 25%;
-    height: 25%
+  border-radius: 150px;
+  border-style: double;
+  border-width: 5px;
+  border-color: lightgreen;
+  position: relative;
+  margin-top: 70px;
+  width: 25%;
+  height: 25%;
 }
 
 #GalileoCaption {
-    position: relative;
-    right: 500px;
-    margin-top: 10px;
-    color: lightseagreen;
+  position: relative;
+  right: 500px;
+  margin-top: 10px;
+  color: lightseagreen;
 }
 
 #KeplerImg {
-    border-radius: 20px;
-    border-style: double;
-    border-width: 5px;
-    border-color: lightblue;
-    position: relative;
-    margin-top:70px;
-    width: 25%;
-    height: 25%
+  border-radius: 20px;
+  border-style: double;
+  border-width: 5px;
+  border-color: lightblue;
+  position: relative;
+  margin-top: 70px;
+  width: 25%;
+  height: 25%;
 }
 
 #KeplerCaption {
-    position: relative;
-    right: 500px;
-    margin-top: 10px;
-    color: lightskyblue;
+  position: relative;
+  right: 500px;
+  margin-top: 10px;
+  color: lightskyblue;
 }
-
 
 /*for Mona Lisa caption*/
 figcaption {
-    color:lightcoral;
-    position: relative;
-    text-align: center;
-    font-style: italic;
-    margin-top: 60px;
+  color: lightcoral;
+  position: relative;
+  text-align: center;
+  font-style: italic;
+  margin-top: 60px;
 }
-
-
 
 /*-----BUTTON-----*/
 .mainPageButton {
-    position: relative;
-    top: 100px;
-    border-radius: 10px;
+  position: relative;
+  top: 100px;
+  border-radius: 10px;
 }
 
 button:active {
-    background-color: blue;
+  background-color: blue;
 }

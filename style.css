@@ -1,42 +1,40 @@
 body {
-
-    background-color: black;
-
+  background-color: black;
 }
 
 p {
-    color:white;
+  color: white;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 h2 {
-    color: lightyellow;
+  color: lightyellow;
 }
 
 h3 {
-    text-align: center;
-    color: lightblue;
+  text-align: center;
+  color: lightblue;
 }
 
 .AmericanRevolutionButton {
-    color:white;
-    background-color: blue;
-    border-color: red;
+  color: white;
+  background-color: blue;
+  border-color: red;
 }
 
 .FrenchRevolutionButton {
-    color:white;
-    background-color: red;
-    border-color:blue;
-    border-width:3px;
-    border-radius:5px
+  color: white;
+  background-color: red;
+  border-color: blue;
+  border-width: 3px;
+  border-radius: 5px;
 }
 
 .ScientificRevolutionButton {
-    border-radius: 20px;
-    background-color: azure;
+  border-radius: 20px;
+  background-color: azure;
 }

@@ -1,120 +1,143 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 h1 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 #protestant-reform-h {
-    position: relative;
-    text-align: right;
-    text-decoration: underline;
-    margin-right: 110px;
-    top: 200px;
-    color: lightblue;
+  position: relative;
+  text-align: right;
+  text-decoration: underline;
+  margin-right: 110px;
+  top: 200px;
+  color: lightblue;
 }
 
-#protestant-reform-p{
-    position: relative;
-    left: 760px;
-    top: -300px;
-    color: white;
+#protestant-reform-p {
+  position: relative;
+  left: 760px;
+  top: -300px;
+  color: white;
 }
 
 .mayflower-img {
-    position: relative;
-    border-style: solid;
-    border-width: 5px;
-    border-radius: 50px;
-    border-color: tan;
-    width: 45%;
-    height: auto;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 50px;
+  border-color: tan;
+  width: 45%;
+  height: auto;
 }
 
 #mayflower-caption {
-    color:white;
-    font-style: italic;
-    padding: 5px;
-    margin-top: 10px;
+  color: white;
+  font-style: italic;
+  padding: 5px;
+  margin-top: 10px;
 }
 
 #england-monarchy-h {
-    position: relative;
-    text-align: center;
-    text-decoration:underline;
-    bottom: 100px;
-    color: orange;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  bottom: 100px;
+  color: orange;
 }
 
 #england-monarchy-p {
-    position:relative;
-    margin-right: 150px;
-    margin-left: 150px;
-    bottom: 90px;
-    color: white;
+  position: relative;
+  margin-right: 150px;
+  margin-left: 150px;
+  bottom: 90px;
+  color: white;
 }
 
 ul {
-    position: relative;
-    display: table;
-    margin: 0 auto;
-    bottom: 60px;
-    color: lightcyan;
+  position: relative;
+  display: table;
+  margin: 0 auto;
+  bottom: 60px;
+  color: lightcyan;
 }
 
 li::marker {
-    color: lightskyblue;
+  color: lightskyblue;
 }
 
 #enlightenmentH {
-    position: relative;
-    text-align: center;
-    text-decoration: underline;
-    color: lightseagreen;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  color: lightseagreen;
 }
 
 #enlightenment-p {
-    position: relative;
-    margin-right: 80px;
-    margin-left: 80px;
-    margin-top: 50px;
-    color: white;
+  position: relative;
+  margin-right: 80px;
+  margin-left: 80px;
+  margin-top: 50px;
+  color: white;
 }
 
 #john-adams-img {
-    position: relative;
-    float: right;
-    border-radius: 200px;
-    width: 30%;
-    height: auto;
+  position: relative;
+  float: right;
+  border-radius: 200px;
+  width: 30%;
+  height: auto;
 }
 
 #john-adams-caption {
-    position: relative;
-    text-align: right;
-    left: 350px;
-    top:520px;
-    color: lightskyblue;
+  position: relative;
+  text-align: right;
+  left: 350px;
+  top: 520px;
+  color: lightskyblue;
 }
 
 #john-adams-p {
-    position: relative;
-    margin-top: 200px;
-    margin-left: 50px;
-    color: lightgray;
+  position: relative;
+  margin-top: 200px;
+  margin-left: 50px;
+  color: lightgray;
+}
+
+#john-locke-img {
+  position: relative;
+  float: left;
+  margin-top: 200px;
+  border-radius: 200px;
+  width: 30%;
+  height: auto;
+}
+
+#john-locke-caption {
+  position: relative;
+  top: 730px;
+  right: 340px;
+  color: lightgoldenrodyellow;
+}
+
+#john-locke-p {
+  position: relative;
+  margin-top: 400px;
+  margin-left: 500px;
+  margin-right: 100px;
+  color: lightgray;
 }
 
 .mainPageButton {
-    position: relative;
-    margin-top: 500px;
-    color:black;
-    background-color:lightblue;
-    border-radius: 10px;
-    left: 50px;
+  text-align: center;
+  margin-top: 300px;
+  color: black;
+  background-color: lightblue;
+  border-radius: 10px;
 }
 
 button:active {
-    background-color: blue;
+  background-color: blue;
 }
