@@ -172,9 +172,33 @@ li::marker {
   color: lightgray;
 }
 
-.mainPageButton {
-  text-align: center;
+#montesquieu-img {
+  position: relative;
+  float: right;
+  margin-top: 50px;
+  border-radius: 200px;
+  width: 30%;
+  height: auto;
+}
+
+#montesquieu-caption {
+  position: relative;
+  text-align: right;
+  left: 360px;
+  top: 620px;
+  color: lightcoral;
+}
+
+#montesquieu-p {
+  position: relative;
   margin-top: 300px;
+  margin-left: 50px;
+  color: lightgray;
+}
+
+.mainPageButton {
+  margin-top: 250px;
+  margin-left: 20px;
   color: black;
   background-color: lightblue;
   border-radius: 10px;
