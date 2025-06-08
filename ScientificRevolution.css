@@ -24,22 +24,16 @@ h2 {
   position: relative;
   text-align: center;
   text-decoration: underline;
-  margin-top: 90px;
+  margin-top: 450px;
   color: lightsalmon;
-}
-
-h3 {
-  position: relative;
-  margin-top: 10px;
-  text-align: center;
-  color: lightskyblue;
 }
 
 .peopleParagraphs {
   position: relative;
   color: white;
-  left: 500px;
-  bottom: 300px;
+  margin-left: 500px;
+  margin-right: 50px;
+  bottom: 350px;
 }
 
 #ScientificRevIntroP {
@@ -57,13 +51,59 @@ h3 {
 }
 
 #MonaLisaP {
-  position: relative;
-  top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
   color: white;
 }
 
+#renaissance-h {
+  position: relative;
+  margin-top: 30px;
+  text-align: center;
+  color: lightskyblue;
+}
+
 #RenaissanceP {
+  margin-left: 50px;
+  margin-right: 50px;
   color: white;
+}
+
+#plague-doctor-img {
+  position: relative;
+  float: left;
+  margin-left: 150px;
+  width: 20%;
+  height: auto;
+}
+
+#plague-doctor-caption {
+  position: relative;
+  text-align: left;
+  top: 400px;
+  right: 350px;
+  color: salmon;
+}
+
+#printing-press-img {
+  position: relative;
+  float: right;
+  margin-right: 200px;
+  bottom: 80px;
+  width: 30%;
+  height: auto;
+  border-radius: 10px;
+  border-width: 5px;
+  border-style: ridge;
+  border-color: royalblue;
+}
+
+#printing-press-caption {
+  position: relative;
+  text-align: right;
+  left: 320px;
+  top: 250px;
+  color: yellow;
 }
 
 /*---PEOPLE---*/
@@ -152,7 +192,8 @@ figcaption {
 /*-----BUTTON-----*/
 .mainPageButton {
   position: relative;
-  top: 100px;
+  left: 100px;
+  bottom: 40px;
   border-radius: 10px;
 }
 
