@@ -141,6 +141,7 @@ li::marker {
   text-align: right;
   left: 350px;
   top: 520px;
+  font-style:oblique;
   color: lightskyblue;
 }
 
@@ -164,6 +165,7 @@ li::marker {
   position: relative;
   top: 730px;
   right: 340px;
+  font-style: oblique;
   color: lightgoldenrodyellow;
 }
 
@@ -189,6 +191,7 @@ li::marker {
   text-align: right;
   left: 360px;
   top: 620px;
+  font-style: oblique;
   color: lightcoral;
 }
 

@@ -27,12 +27,43 @@ h3 {
 }
 
 .AmericanRevolutionButton {
+  position: relative;
+  top: 100px;
+  left: 450px;
+
   color: white;
   background-color: blue;
   border-color: red;
+
+  font-weight: bold;
+
+  border-radius: 100px;
+  padding: 50px 8px;
+
+  cursor: pointer;
+}
+
+.AmericanRevolutionButton:active {
+  background-color: lightskyblue;
+  cursor: grabbing;
 }
 
 .ScientificRevolutionButton {
-  border-radius: 20px;
-  background-color: azure;
+  position: relative;
+  margin-left: 700px;
+  top: 100px;
+
+  background-color: yellowgreen;
+
+  font-weight: bold;
+
+  border-radius: 100px;
+  padding: 50px 8px;
+
+  cursor: pointer;
+}
+
+.ScientificRevolutionButton:active {
+  background-color: green;
+  cursor: grabbing;
 }
