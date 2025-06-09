@@ -43,6 +43,11 @@ h2 {
 }
 
 #MonaLisaImg {
+  border-radius: 20px;
+  padding: 4px;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, purple) border-box;
+  background-clip: padding-box;
+
   position: relative;
   display: block;
   margin-left: auto;
@@ -128,9 +133,10 @@ h2 {
 
 #NCopernicusImg {
   border-radius: 20px;
-  border-style: double;
-  border-width: 5px;
-  border-color: orangered;
+  padding: 5px;
+  background: linear-gradient(45deg,lightseagreen, blue) border-box;
+  background-clip: padding-box;
+
   position: relative;
   margin-top: 70px;
   width: 25%;
@@ -146,9 +152,11 @@ h2 {
 
 #GalileoImg {
   border-radius: 150px;
-  border-style: double;
-  border-width: 5px;
-  border-color: lightgreen;
+  padding: 5px;
+  background: linear-gradient(45deg,red,blue) border-box;
+  background-clip:padding-box;
+  border: 5px solid transparent;
+
   position: relative;
   margin-top: 70px;
   width: 25%;
@@ -164,9 +172,10 @@ h2 {
 
 #KeplerImg {
   border-radius: 20px;
-  border-style: double;
-  border-width: 5px;
-  border-color: lightblue;
+  padding: 5px;
+  background: radial-gradient(green, yellow, blue, purple) border-box;
+  background-clip: padding-box;
+
   position: relative;
   margin-top: 70px;
   width: 25%;

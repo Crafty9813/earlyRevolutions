@@ -30,11 +30,12 @@ h1 {
 }
 
 .mayflower-img {
+  border-radius: 20px;
+  padding: 4px;
+  background: linear-gradient(45deg, red, white, blue) border-box;
+  background-clip: padding-box;
+
   position: relative;
-  border-style: ridge;
-  border-width: 5px;
-  border-radius: 50px;
-  border-color: tan;
   width: 45%;
   height: auto;
 }
@@ -55,15 +56,16 @@ h1 {
 }
 
 #iroquois-img {
+  border-radius: 10px;
+  padding: 4px;
+  background: linear-gradient(45deg, green, gold);
+  background-clip: padding-box;
+
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
   bottom: 100px;
-  border-style: groove;
-  border-width: 3px;
-  border-radius: 5px;
-  border-color: lightcoral;
 }
 
 #iroquois-caption {
