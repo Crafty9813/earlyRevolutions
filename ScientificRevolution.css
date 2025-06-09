@@ -45,7 +45,8 @@ h2 {
 #MonaLisaImg {
   border-radius: 20px;
   padding: 4px;
-  background: linear-gradient(45deg, red, orange, yellow, green, blue, purple) border-box;
+  background: linear-gradient(45deg, red, orange, yellow, green, blue, purple)
+    border-box;
   background-clip: padding-box;
 
   position: relative;
@@ -134,7 +135,7 @@ h2 {
 #NCopernicusImg {
   border-radius: 20px;
   padding: 5px;
-  background: linear-gradient(45deg,lightseagreen, blue) border-box;
+  background: linear-gradient(45deg, lightseagreen, blue) border-box;
   background-clip: padding-box;
 
   position: relative;
@@ -153,8 +154,8 @@ h2 {
 #GalileoImg {
   border-radius: 150px;
   padding: 5px;
-  background: linear-gradient(45deg,red,blue) border-box;
-  background-clip:padding-box;
+  background: linear-gradient(45deg, red, blue) border-box;
+  background-clip: padding-box;
   border: 5px solid transparent;
 
   position: relative;
@@ -203,9 +204,14 @@ figcaption {
   position: relative;
   left: 100px;
   bottom: 40px;
+
   border-radius: 10px;
+
+  cursor: pointer;
 }
 
 button:active {
-  background-color: blue;
+  background-color: navy;
+  color: white;
+  cursor: grabbing;
 }

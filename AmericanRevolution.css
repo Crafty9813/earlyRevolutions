@@ -141,7 +141,7 @@ li::marker {
   text-align: right;
   left: 350px;
   top: 520px;
-  font-style:oblique;
+  font-style: oblique;
   color: lightskyblue;
 }
 
@@ -203,13 +203,18 @@ li::marker {
 }
 
 .mainPageButton {
-  margin-top: 250px;
+  margin-top: 200px;
   margin-left: 20px;
+
   color: black;
   background-color: lightblue;
+
   border-radius: 10px;
+
+  cursor: pointer;
 }
 
 button:active {
   background-color: blue;
+  cursor: grabbing;
 }
