@@ -31,9 +31,9 @@ h3 {
   top: 100px;
   left: 450px;
 
-  color: white;
-  background-color: blue;
-  border-color: red;
+  padding: 4px;
+  background: linear-gradient(45deg, red, white, blue) border-box;
+  background-clip: padding-box;
 
   font-weight: bold;
 
@@ -44,7 +44,7 @@ h3 {
 }
 
 .AmericanRevolutionButton:active {
-  background-color: lightskyblue;
+  background: linear-gradient(45deg, blue, white, red) border-box;
   cursor: grabbing;
 }
 
@@ -64,6 +64,6 @@ h3 {
 }
 
 .ScientificRevolutionButton:active {
-  background-color: green;
+  background: green;
   cursor: grabbing;
 }
